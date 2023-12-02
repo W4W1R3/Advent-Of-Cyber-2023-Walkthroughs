@@ -1,4 +1,7 @@
 # Day 1
+
+![Screenshot](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/blob/main/Files/1%20ihMDeeRVwXR0pb5zeTyQoA.webp)
+
 ## Description
 
 Enhancing Chatbot Security Through AI Assistance
