@@ -1,4 +1,5 @@
-# Description
+# Day 1
+## Description
 
 Enhancing Chatbot Security Through AI Assistance
 
@@ -15,5 +16,6 @@ The concept involves deploying a secondary AI, aptly named the "Interceptor," to
     Nevertheless, achieving absolute security remains elusive. 
     The Interceptor, while proficient, is not foolproof. 
     New, innovative attacks may emerge, challenging its capabilities and uncovering potential vulnerabilities.
-    Persistent exploration of the system might unveil intricacies and loopholes susceptible to exploitation. As with any security measure, vigilance and adaptability are crucial for staying one step ahead of evolving threats.
+    Persistent exploration of the system might unveil intricacies and loopholes susceptible to exploitation. 
+    As with any security measure, vigilance and adaptability are crucial for staying one step ahead of evolving threats.
 
