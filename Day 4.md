@@ -38,7 +38,7 @@ With CewlGenerate a list of Usernames with the Command —
    
 Again with CewlGenerate a list of Passwords with the Command —
 
-    cewl -d 2 -m 5 -w passwords.txt http://MACHINE-IP — with-numbers
+    cewl -d 2 -m 5 -w passwords.txt http://MACHINE-IP —-with-numbers
    
 Now bruteforce the Credentials using wfuzz with the command —
 
