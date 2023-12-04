@@ -34,7 +34,7 @@ Many tools rely on pre-defined lists or common dictionary attacks, but CeWL stan
 
 With CewlGenerate a list of Usernames with the Command —
 
-   cewl -d 0 -m 5 -w usernames.txt http://MACHINE-IP/team.php — lowercase
+    cewl -d 0 -m 5 -w usernames.txt http://MACHINE-IP/team.php — lowercase
    
 Again with CewlGenerate a list of Passwords with the Command —
 
