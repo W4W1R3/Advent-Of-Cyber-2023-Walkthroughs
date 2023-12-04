@@ -12,19 +12,19 @@ The server room is securely locked, and the team must regain access to recover b
 ## Learning Objectives
 
 Upon completing this task, you will gain an understanding of:
-
-- Password complexity and the count of possible combinations.
-- The impact of the number of possible combinations on the feasibility of brute force attacks.
-- Generating password combinations using `crunch`.
-- Automated password trials using `hydra`.
+    
+    - Password complexity and the count of possible combinations.
+    - The impact of the number of possible combinations on the feasibility of brute force attacks.
+    - Generating password combinations using `crunch`.
+    - Automated password trials using `hydra`.
 
 ## Feasibility of Brute Force
 
 ### Inquiries
 
-1. How many distinct PIN codes exist?
-2. How many passwords can be generated?
-3. What is the time estimate for finding the password via brute force?
+    1. How many distinct PIN codes exist?
+    2. How many passwords can be generated?
+    3. What is the time estimate for finding the password via brute force?
 
 ## Counting the PIN Codes
 
@@ -39,9 +39,9 @@ Consider a scenario where a four-digit PIN code must be selected. The total coun
 
 Let's imagine a scenario with a four-character password, where each character can be:
 
-- A digit: We have 10 digits (0 to 9).
-- An uppercase English letter: We have 26 letters (A to Z).
-- A lowercase English letter: We have 26 letters (a to z).
+    - A digit: We have 10 digits (0 to 9).
+    - An uppercase English letter: We have 26 letters (A to Z).
+    - A lowercase English letter: We have 26 letters (a to z).
 
 Therefore, each character can be one of 62 different choices. Consequently, for a four-character password, we can create 62×62×62×62 = 62^4 = 14,776,336 different passwords.
 
@@ -50,3 +50,25 @@ To enhance complexity, symbols can be added, expanding the set of choices by mor
 ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/cebdf03b-911a-4b72-b045-43939842a530)
 
 
+
+
+We can make passwords more secure by increasing the password complexity. This can be achieved by specifying a minimum password length and character variety. For example, the character variety might require at least one uppercase letter, one lowercase letter, one digit, and one symbol.
+
+
+# Day 3 Tasks:
+
+## 1. Using crunch and hydra, find the PIN code to access the control system and unlock the door. What is the flag?
+
+### PIN Code Retrieval Using crunch and hydra
+
+1. **Objective:** Using `crunch` and `hydra`, discover the PIN code to access the control system and unlock the door. Identify the flag.
+
+2. **Procedure:**
+   
+         - Navigate to [http://MACHINE-IP:8000/login.php](http://MACHINE-IP:8000/login.php).
+         - Identify that the system utilizes a 3-digit password.
+         - Generate a password list with `crunch` using the following command:
+   
+     ```bash
+     crunch 3 3 0123456789ABCDEF -o 3digits.txt
+     ```
