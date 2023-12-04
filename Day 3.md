@@ -68,7 +68,22 @@ We can make passwords more secure by increasing the password complexity. This ca
          - Navigate to [http://MACHINE-IP:8000/login.php](http://MACHINE-IP:8000/login.php).
          - Identify that the system utilizes a 3-digit password.
          - Generate a password list with `crunch` using the following command:
+
+   ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/0f48b3f2-5b6d-47da-a8f3-43dcb29aafde)
+
    
      ```bash
      crunch 3 3 0123456789ABCDEF -o 3digits.txt
      ```
+```
+
+╰─ crunch 3 3 0123456789ABCDEF -o 3digits.txt                                             ─╯
+Crunch will now generate the following amount of data: 16384 bytes
+0 MB
+0 GB
+0 TB
+0 PB
+Crunch will now generate the following number of lines: 4096 
+
+crunch: 100% completed generating output
+```
