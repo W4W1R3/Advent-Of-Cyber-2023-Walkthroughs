@@ -117,8 +117,6 @@ crunch: 100% completed generating output
 
 ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/323d8f1d-05e5-40ca-be5d-5150e83e97f2)
 
-   
-     ```
-     THM{pin-code-brute-force}
-     ```
+        THM{pin-code-brute-force}
+    
 
