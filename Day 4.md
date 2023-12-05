@@ -72,3 +72,7 @@ Requests/sec.: 0
 
 Log in and click on the Email with the Subject “Confidential Message”
 
+
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/5254bbb9-a93d-4fee-9d7f-a20317ea8354)
+
+
