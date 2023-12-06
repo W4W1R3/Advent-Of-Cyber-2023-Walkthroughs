@@ -6,6 +6,8 @@
 Reverse Engineering [ A Christmas DOScovery: Tapes of Yule-tide Past ] — The backup tapes are corrupted. 
 They can only be restored using a special program, which can only run in MS-DOS. Explore AntarctiCrafts’ legacy systems and restore the files!
 
+<h1>If you are on Windows, use Remote Desktop Connection else use rdpclient</h1>
+
 ## Day 5 Tasks:
 
 ### 1. How large (in bytes) is the AC2023.BAK file?
