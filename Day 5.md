@@ -38,7 +38,7 @@ They can only be restored using a special program, which can only run in MS-DOS.
 
       To ensure proper backup restoration, check the correct bytes in the backup's file signature.
 
-      ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/a8f5f78d-0bca-4ceb-b34e-fbd2ae1e7c61)
+ ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/a8f5f78d-0bca-4ceb-b34e-fbd2ae1e7c61)
 
 
 **Answer: 41 43**
