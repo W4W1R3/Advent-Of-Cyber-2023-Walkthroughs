@@ -17,7 +17,8 @@ They can only be restored using a special program, which can only run in MS-DOS.
       1. Open the DOS application.
       2. Type the command `dir` to view file information.
 
-      ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/e6fac3d0-818d-4251-a08d-0de873aa2c0a)
+
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/e6fac3d0-818d-4251-a08d-0de873aa2c0a)
 
    
 **Answer: 12,704**
