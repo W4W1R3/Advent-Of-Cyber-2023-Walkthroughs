@@ -1,4 +1,5 @@
 # Day 5
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/8bdb8a7c-f3dd-4c66-9686-597f9b727428)
 
 ## Description
 
