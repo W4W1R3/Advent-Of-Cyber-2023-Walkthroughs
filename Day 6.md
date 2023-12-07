@@ -3,4 +3,4 @@
 
 ## Day 6 Tasks:
 
-### s1. If the coins variable had the in-memory value in the image below, how many coins would you have in the game
+### If the coins variable had the in-memory value in the image below, how many coins would you have in the game
