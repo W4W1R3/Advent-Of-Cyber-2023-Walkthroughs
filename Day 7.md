@@ -65,9 +65,12 @@ Ans: `1581`
 
 Use the below command and scroll up, you will find the flag
 
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/d6fbf19d-2ad1-4303-b5bf-7a09934a84f9)
+
+
 `grep frostlings.bigbadstash.thm access.log | cut -d ‘ ‘ -f5 | cut -d ‘=’ -f2 | base64 -d`
 
-Ans: THM{a_gift_for_you_awesome_analyst!}
+Ans:` THM{a_gift_for_you_awesome_analyst!}`
 
 
 
