@@ -12,7 +12,10 @@ Use the below command
 
 `cut -d ‘ ‘ -f2 access.log | sort | uniq -c | sort -n | wc -l`
 
-Ans: 9
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/06f035ce-ee9b-4194-a8b8-10023836cd34)
+
+
+Ans: ` 9`
 
 ### 2. How many unique domains were accessed by all workstations?
 
