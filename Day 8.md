@@ -4,4 +4,10 @@
 
 ## Day 8 Tasks:
 
+### 1. What is the malware C2 server?
 
+    Open the deleted folder and click on the text file, you’ll find the c2 server
+
+### 2. What is the file inside the deleted zip archive?
+
+Open the deleted zip file and you can see a program
