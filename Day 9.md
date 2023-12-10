@@ -25,18 +25,21 @@
 
 ### 3. What key is used by the malware to encrypt or decrypt the C2 data?
 
-Inspect the Code or use the below video reference
+    Inspect the Code or use the below video reference
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/3b424980-72cd-4b0d-9391-7b11f27daf0e)
 
-Ans: youcanthackthissupersecurec2keys
+    Ans: youcanthackthissupersecurec2keys
 
 
 
 
 ### 4. What is the first HTTP URL used by the malware?
 
-Inspect the Code or use the below video reference
+    Inspect the Code or use the below video reference
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/9a01b2e9-aff3-4cb7-86cd-16fe5236c9bc)
 
-Ans: http://mcgreedysecretc2.thm/reg
+
+    Ans: http://mcgreedysecretc2.thm/reg
 
 5. How many seconds is the hardcoded value used by the sleep function?
 
