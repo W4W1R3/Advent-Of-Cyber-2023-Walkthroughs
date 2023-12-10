@@ -12,3 +12,48 @@
 
 
     Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+
+### 2. What is the HTTP method used to submit the command execution output?
+
+    Inspect the Code or use the below video reference
+
+         POST
+
+
+
+
+### 3. What key is used by the malware to encrypt or decrypt the C2 data?
+
+Inspect the Code or use the below video reference
+
+Ans: youcanthackthissupersecurec2keys
+
+
+
+
+### 4. What is the first HTTP URL used by the malware?
+
+Inspect the Code or use the below video reference
+
+Ans: http://mcgreedysecretc2.thm/reg
+
+5. How many seconds is the hardcoded value used by the sleep function?
+
+Inspect the Code or use the below video reference
+
+    Use your skills to find the Answer for this Question
+
+    If you are unble to find, use the below video to find the answer
+
+6. What is the C2 command the attacker uses to execute commands via cmd.exe?
+
+Inspect the Code or use the below video reference
+
+Ans: shell
+
+7. What is the domain used by the malware to download another binary?
+
+Inspect the Code or use the below video reference
+
+Ans: stash.mcgreedy.thm
+
