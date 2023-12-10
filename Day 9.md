@@ -16,8 +16,9 @@
 ### 2. What is the HTTP method used to submit the command execution output?
 
     Inspect the Code or use the below video reference
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/4f704f51-e062-476b-a3ba-2a1279d328b4)
 
-         POST
+    POST
 
 
 
