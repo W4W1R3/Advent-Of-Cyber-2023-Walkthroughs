@@ -15,7 +15,7 @@
 
 ### 2. What is the HTTP method used to submit the command execution output?
 
-    Inspect the Code or use the below video reference
+    Inspect the Code 
 ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/4f704f51-e062-476b-a3ba-2a1279d328b4)
 
     POST
@@ -25,39 +25,41 @@
 
 ### 3. What key is used by the malware to encrypt or decrypt the C2 data?
 
-    Inspect the Code or use the below video reference
+    Inspect the Code 
 ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/3b424980-72cd-4b0d-9391-7b11f27daf0e)
 
-    Ans: youcanthackthissupersecurec2keys
+    youcanthackthissupersecurec2keys
 
 
 
 
 ### 4. What is the first HTTP URL used by the malware?
 
-    Inspect the Code or use the below video reference
+    Inspect the Code 
 ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/9a01b2e9-aff3-4cb7-86cd-16fe5236c9bc)
 
 
-    Ans: http://mcgreedysecretc2.thm/reg
+    http://mcgreedysecretc2.thm/reg
 
 5. How many seconds is the hardcoded value used by the sleep function?
 
-Inspect the Code or use the below video reference
+Inspect the Code 
 
-    Use your skills to find the Answer for this Question
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/b90bb22a-e4a2-4178-8fa5-aa88dd38605b)
 
-    If you are unble to find, use the below video to find the answer
-
+    15
+    
 6. What is the C2 command the attacker uses to execute commands via cmd.exe?
 
-Inspect the Code or use the below video reference
+        Inspect the Code 
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/798572d6-e313-4e23-923c-58a0dfe73b8b)
 
-Ans: shell
+        shell
 
 7. What is the domain used by the malware to download another binary?
 
-Inspect the Code or use the below video reference
+Inspect the Code 
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/c2c617ec-d75e-446a-86b0-6eb98aea44fe)
 
-Ans: stash.mcgreedy.thm
+    stash.mcgreedy.thm
 
