@@ -51,7 +51,8 @@ Inspect the Code
     
 6. What is the C2 command the attacker uses to execute commands via cmd.exe?
 
-        Inspect the Code 
+Inspect the Code 
+
 ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/798572d6-e313-4e23-923c-58a0dfe73b8b)
 
         shell
