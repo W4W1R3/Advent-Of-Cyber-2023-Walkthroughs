@@ -4,18 +4,21 @@
 
 ## Day 10 — Tasks Answers
 ### 1. Manually navigate the defaced website to find the vulnerable search for What is the first webpage you come across that contains the gift-finding feature?
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/acff22db-c563-44d2-8458-24b6078286cd)
 
     /giftsearch.php
 
 ### 2. Analyze the SQL error message that is returned. What ODBC Driver is being used in the back end of the website?
 
 Inject a Quote on a parameter ‘
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/803758db-f911-4ada-a804-9190a0dd3f63)
 
     ODBC Driver 17 for SQL Server
 
 ### 3. Inject the 1=1 condition into the Gift Search form. What is the last result returned in the database?
 
 Inject the code after the value of parameter ‘OR 1=1 --
+![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/ae3553f3-2227-4d6c-8dac-eaa612594948)
 
     THM{a4ffc901c27fb89efe3c31642ece4447}
 
