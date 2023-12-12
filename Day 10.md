@@ -10,7 +10,8 @@
 
 ### 2. Analyze the SQL error message that is returned. What ODBC Driver is being used in the back end of the website?
 
-Inject a Quote on a parameter ‘
+Inject a Quote on a parameter 
+
 ![image](https://github.com/W4W1R3/Advent-Of-Cyber-2023-Walkthroughs/assets/57982315/803758db-f911-4ada-a804-9190a0dd3f63)
 
     ODBC Driver 17 for SQL Server
